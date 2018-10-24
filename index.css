@@ -1,0 +1,38 @@
+* {
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration:none;
+
+}
+
+.Screen {
+    height:100%;
+    position: absolute;
+    left:0%;
+    width: 100%;
+}
+
+
+#ScreenOne {
+   background-image: url("anything.jpg");
+   background-size:cover;
+   background-repeat:no-repeat; 
+    top:0%;
+}
+#S1H1{
+    color: white;
+    font-size: 10vh;
+    text-align: center;
+    position: relative;
+    top: 35%;
+    text-shadow: 5px 2px 10px #7D4141;
+}
+#ScreenTwo{
+    background-color: yellow;
+    top:100%;
+}
+
+#ScreenThree {
+    background-color: green;
+        top:200%;
+}
